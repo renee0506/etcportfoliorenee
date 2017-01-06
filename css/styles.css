@@ -62,6 +62,7 @@
 .jumbotron {
   padding-left: 50px;
   padding-right: 50px;
+  background-color: white;
 }
 
 .panel {
@@ -86,4 +87,13 @@ span {
 
 h4 {
   margin: 10px;
+}
+
+#btop {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#btop img{
+  width:5%;
 }
