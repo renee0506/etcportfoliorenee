@@ -1,8 +1,17 @@
+#subheader {
+  float:left;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 50px;
+  height:300px;
+  width: 800px;
+}
+
 #name-nav {
   margin-top: 50px;
-  margin-left: 20px;
   margin-right: -20px;
   float: left;
+  padding-left:50px;
 }
 
 #name-nav h1{
@@ -16,16 +25,44 @@
 
 #name-nav li{
   margin: 30px;
+  margin-top:5px;
   font-size: 24px;
 }
 
-.header img{
-  float: right;
-  padding: 20px;
-  width: 30%;
+#name-nav #github{
+  margin-left: 20px;
+  font-size: 24px;
 }
 
+.header {
+  background-image:url(../img/portrait.jpeg);
+  background-size:100%;
+  height: 730px;
+
+}
+
+.header img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  width: 200px;
+  float:right;
+  border-radius: 10px;
+}
+
+.header .nav {
+  color:black;
+}
+
+.header .nav:hover{
+  color:#337ab7;
+}
 /*^^^^^^^^^Header^^^^^^^*/
+
+.jumbotron {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 .panel {
   height: 500px;
