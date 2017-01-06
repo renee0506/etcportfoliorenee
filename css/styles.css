@@ -7,6 +7,17 @@
   width: 800px;
 }
 
+#subheader:hover {
+  float:left;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 15px;
+  padding-left: 60px;
+  height:300px;
+  width: 860px;
+}
+
 #name-nav {
   margin-top: 50px;
   margin-right: -20px;
@@ -79,6 +90,10 @@
   border-top: 2px solid #c4e2fc;
 }
 
+#contact{
+  font-size: 18px;
+}
+
 #projects {
   padding-left: 0px;
   padding-right: 0px;
@@ -100,11 +115,21 @@
   background-color:#c4e2fc;
   border-bottom: 0px;
 }
+.panel-title {
+ font-size: 24px;
+ color: #0c487c;
+}
 
 .screenshots {
   width: 40%;
   float: left;
-  margin: 10px;
+  margin: 30px;
+  border:2px solid #c4e2fc;
+  border-radius:10px;
+}
+
+.screenshots:hover{
+  border:5px solid #c4e2fc;
 }
 
 .upper {
@@ -140,5 +165,14 @@ h4 {
 }
 
 #btop img:hover{
-  width:5.5%;
+  width:5.5%
+}
+
+.contactimg img{
+  width:90%;
+  margin-top: 70px;
+}
+
+.clickimg img:hover{
+  width:95%;
 }
