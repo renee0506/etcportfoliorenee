@@ -2,16 +2,16 @@
   margin-top: 50px;
   margin-left: 20px;
   margin-right: -20px;
-  float:left;
+  float: left;
 }
 
 #name-nav h1{
-  font-size:72px;
+  font-size: 72px;
   padding-left: 25px;
 }
 
 #name-nav ul{
-  display:flex;
+  display: flex;
 }
 
 #name-nav li{
@@ -22,5 +22,23 @@
 .header img{
   float: right;
   padding: 20px;
-  width:30%;
+  width: 30%;
+}
+
+.panel {
+  height: 500px;
+}
+
+.screenshots {
+  width: 40%;
+  float: left;
+  margin: 10px;
+}
+
+.upper{
+  margin-top: 12px;
+}
+
+h4 {
+  margin: 10px;
 }
