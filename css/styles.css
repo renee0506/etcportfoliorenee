@@ -69,8 +69,26 @@
   border-top: 2px solid #c4e2fc;
 }
 
+#projects {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#projects h1{
+  margin-left: 50px ;
+  padding-right: 0px;
+}
+
 .panel {
+  padding: 20px;
   height: 500px;
+  border-radius: 0px;
+  border-color: #c4e2fc;
+}
+
+.panel-default .panel-heading {
+  background-color:#c4e2fc;
+  border-bottom: 0px;
 }
 
 .screenshots {
@@ -81,6 +99,15 @@
 
 .upper {
   margin-top: 12px;
+  margin-bottom:-1px;
+}
+
+.left {
+  margin-right: -16px;
+}
+
+.right {
+  margin-left: -15px;
 }
 
 span {
