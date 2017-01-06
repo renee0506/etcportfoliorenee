@@ -35,10 +35,16 @@
 }
 
 #name-nav li{
-  margin: 30px;
+  margin: 25px;
   margin-top:5px;
   font-size: 24px;
+  font-weight:bold;
 }
+
+#name-nav li a{
+  color: #0c487c;
+}
+
 
 #name-nav #github{
   margin-left: 20px;
@@ -86,6 +92,14 @@
   padding-left:100px;
 }
 
+#intro-text {
+  margin-right: 10px;
+  padding-right: 70px;
+  padding-top: 20px;
+  height:250px;
+  border-right: 2px solid #c4e2fc;
+}
+
 #projects, #contact{
   border-top: 2px solid #c4e2fc;
 }
@@ -118,6 +132,10 @@
 .panel-title {
  font-size: 24px;
  color: #0c487c;
+}
+
+.technology {
+  padding-left: 50px;
 }
 
 .screenshots {
