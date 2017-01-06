@@ -1,0 +1,26 @@
+#name-nav {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: -20px;
+  float:left;
+}
+
+#name-nav h1{
+  font-size:72px;
+  padding-left: 25px;
+}
+
+#name-nav ul{
+  display:flex;
+}
+
+#name-nav li{
+  margin: 30px;
+  font-size: 24px;
+}
+
+.header img{
+  float: right;
+  padding: 20px;
+  width:30%;
+}

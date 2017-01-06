@@ -2,12 +2,23 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/master.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Renee Mei Portfolio</title>
   </head>
   <body>
-    <h1>Renee Mei</h1>
-    <div class="myphoto">
+    <div class="header container">
+      <div id="name-nav">
+        <div class="row">
+          <h1>Renee Mei</h1>
+        </div>
+        <div class="row">
+          <ul class="list-unstyled">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
       <img src="img/myphoto.jpg" alt="a picture of myself">
     </div>
     <!-- Header with Name and Photo -->
@@ -15,7 +26,7 @@
 
       <div class="jumbotron">
         <h1>About Me</h1>
-        <a href="#projects">See my projects</a>
+        <a name="#aboutme"></a>
         <p>Thank you for visiting my portofolio page! I am Renee and I guaduated from Georgia Tech as a civil engineer. After doing an internship with a civil consulting firm, I found that I desire to do something that is more creative and up to my own for my life. Being a gamer, I have held interests in programming before but never got the chance to dive into That's why I came to learn how to program at Epicodus.</p>
         <p>My interests: traveling, photography and visual arts</p>
         <p>My hobbies: cooking, hiking</p>
@@ -101,6 +112,16 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- Projects Section -->
+      <div class="jumbotron">
+        <h1>Contact Me</h1>
+        <a name="contact"></a>
+        <ul class="list-unstyled">
+          <li>Email: meiqianye@gmail.com</li>
+          <li>Mobile: 404-990-0833</li>
+          <li>Address: 15241 12th Ave NE, Shoreline, WA 98155</li>
+        </ul>
       </div>
     </div>
   </body>
