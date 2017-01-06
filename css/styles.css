@@ -25,6 +25,8 @@
   width: 30%;
 }
 
+/*^^^^^^^^^Header^^^^^^^*/
+
 .panel {
   height: 500px;
 }
@@ -35,9 +37,15 @@
   margin: 10px;
 }
 
-.upper{
+.upper {
   margin-top: 12px;
 }
+
+span {
+  color: salmon;
+}
+
+/*^^^^^^^^^^^^Projects^^^^^^^^^^^^^^^^^*/
 
 h4 {
   margin: 10px;
