@@ -65,6 +65,10 @@
   background-color: white;
 }
 
+#projects, #contact{
+  border-top: 2px solid #c4e2fc;
+}
+
 .panel {
   height: 500px;
 }
@@ -96,4 +100,8 @@ h4 {
 
 #btop img{
   width:5%;
+}
+
+#btop img:hover{
+  width:5.5%;
 }
