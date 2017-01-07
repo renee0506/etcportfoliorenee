@@ -194,3 +194,81 @@ h4 {
 .clickimg img:hover{
   width:95%;
 }
+
+@media screen and (max-width: 1300px) {
+
+  .panel {
+    height: 600px;
+  }
+
+  #aboutme {
+    height:670px;
+  }
+
+  #intro-text {
+    margin-right: auto;;
+    padding-right: auto;
+    padding-top: 20px;
+    height:auto;
+    border-right: 2px solid #c4e2fc;
+  }
+
+  #subheader:hover {
+    float:left;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 0px;
+    height:300px;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .header img{
+    display:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    width: 200px;
+    float:auto;
+    border-radius: 10px;
+  }
+
+  #intro-text {
+    margin-right: auto;;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height:auto;
+    border-right: none;
+    border-bottom: 2px solid #c4e2fc;
+  }
+
+  .contactimg img{
+    width:100px;
+    margin-top: 50px;
+  }
+
+  .clickimg img:hover{
+    width:110px;
+  }
+
+  #subheader {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+
+  #aboutme{
+    height:1200px;
+  }
+
+  #name-nav li{
+    font-size: 20px;
+    margin:15px;
+  }
+}
