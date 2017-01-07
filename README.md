@@ -10,12 +10,12 @@ _This is my portfolio website. It contains three sections: About Me, My Projects
 
 ## Instructions
 
-* _Click on the tabs in the title on upper left corner to jump to a certain section
+* _Click on the tabs in the title on upper left corner to jump to a certain section_
 * _Titles of projects and images of projects are clickable and would open the project's GitHub repository_
 
 ## Known Bugs
 
-_None_
+_None. You are welcomed to report._
 
 ## Support and contact details
 
