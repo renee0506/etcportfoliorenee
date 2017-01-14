@@ -88,6 +88,11 @@
   background-color: white;
 }
 
+.jumbotron p{
+  font-size: 18px;
+}
+
+
 #interestlist {
   padding-left:100px;
 }
