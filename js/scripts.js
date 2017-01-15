@@ -1,8 +1,12 @@
 $(document).ready(function(){
-  $("#videolink").click(function(){
+  $(".videolink").click(function(){
     $("#video").fadeIn();
-    $("#close").click(function(){
-      $("#video").fadeOut();
-    })
+  })
+  $("#gwccalink").click(function(){
+    $("#gwcca").fadeIn();
+  })
+  $(".closebtn").click(function(){
+    $("#video").fadeOut();
+    $("#gwcca").fadeOut();
   })
 })
