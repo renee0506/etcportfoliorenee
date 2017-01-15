@@ -215,9 +215,10 @@ span {
   line-height:150%;
 }
 
-#artwork iframe, small{
+#artwork object{
   margin-left: 15%;
   width:70%;
+  border:solid 10px #c4e2fc;
 }
 
 .galleria-theme-classic {
