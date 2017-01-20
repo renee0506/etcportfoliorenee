@@ -92,6 +92,9 @@
   font-size: 18px;
 }
 
+ul{
+  display:flex;
+}
 
 #interestlist {
   padding-left:100px;
@@ -163,7 +166,7 @@
 
 .panel {
   padding: 20px;
-  height: 65vh;
+  height: 500px;
   border-radius: 0px;
   border-color: #c4e2fc;
 }
@@ -191,6 +194,7 @@
 
 .screenshots:hover{
   border:5px solid #c4e2fc;
+  cursor:pointer;
 }
 
 .upper {
@@ -255,7 +259,7 @@ h4 {
 @media screen and (max-width: 1300px) {
 
   .panel {
-    height: 600px;
+    height: 610px;
   }
 
   #aboutme {
