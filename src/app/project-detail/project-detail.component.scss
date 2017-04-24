@@ -1,0 +1,47 @@
+:host {
+  // border: 1px solid red;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  weight: 700;
+  text-transform: uppercase;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.main-project {
+
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+header {
+  height: 450px;
+  width: 800px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+
+.header0 {
+  background: url('https://c1.staticflickr.com/3/2895/34088263375_0737a8727d_z.jpg') center center no-repeat scroll;
+  background-size: cover;
+}
+
+.header1 {
+  background: url('https://c1.staticflickr.com/3/2895/34188090856_cd80555c3c_k.jpg') center center no-repeat scroll;
+  background-size: cover;
+}
+
+.header2 {
+  background: url('https://c1.staticflickr.com/3/2893/34188468916_5c837a76c9_k.jpg') center center no-repeat scroll;
+  background-size: cover;
+}
