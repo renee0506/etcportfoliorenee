@@ -15,20 +15,26 @@
   <div class="tabbable-line">
     <ul class="nav nav-tabs ">
       <li class="active">
-        <a href="#tab_default_1" routerLink="" data-toggle="tab">
+        <a href="#tab_default_1" routerLink="/" data-toggle="tab">
           Projects </a>
         </li>
         <li>
-          <a href="#tab_default_2" routerLink="artwork" data-toggle="tab">
+          <a href="#tab_default_2" routerLink="/artwork" data-toggle="tab">
             Artworks </a>
           </li>
           <li>
-            <a href="#tab_default_3" routerLink="about" data-toggle="tab">
+            <a href="#tab_default_3" routerLink="/about" data-toggle="tab">
               About Me </a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="container">
+      <div class="container" *ngIf = "currentRoute === '/'">
 <project-list></project-list>
+</div>
+<div class="container">
+  <app-art *ngIf = "currentRoute === '/artwork'"></app-art>
+</div>
+<div class="container">
+  <app-about *ngIf = "currentRoute === '/about'"></app-about>
 </div>
