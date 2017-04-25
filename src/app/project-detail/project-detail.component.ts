@@ -19,6 +19,8 @@ export class ProjectDetailComponent implements OnInit {
   public startEditing = false;
   public showAddNeed = false;
   public class: string;
+  public PreviousId : string;
+  public NextId : string ;
 
   constructor(
     private route: ActivatedRoute,
@@ -42,6 +44,8 @@ export class ProjectDetailComponent implements OnInit {
       }, 1);
     });
       this.class = "header" + this.projectId;
+      this.PreviousId = (parseInt(this.projectId)-1).toString();
+      this.NextId = (parseInt(this.projectId)+1).toString();
   }
 
 }
